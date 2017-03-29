@@ -172,6 +172,11 @@ namespace intel_auto_screenshotter
             folderBrowserDialog1.Dispose();
         }
 
+        private void text1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             DateTime datetime = DateTime.Now;

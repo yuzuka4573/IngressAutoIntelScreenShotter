@@ -95,11 +95,12 @@
             this.text1.BackColor = System.Drawing.Color.Transparent;
             this.text1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.text1.ForeColor = System.Drawing.Color.White;
-            this.text1.Location = new System.Drawing.Point(102, 24);
+            this.text1.Location = new System.Drawing.Point(91, 24);
             this.text1.Name = "text1";
-            this.text1.Size = new System.Drawing.Size(322, 15);
+            this.text1.Size = new System.Drawing.Size(350, 15);
             this.text1.TabIndex = 3;
-            this.text1.Text = "Set the interval to take a screen shot (1~60)";
+            this.text1.Text = "Set the interval to take a screen shot (1~60 min)";
+            this.text1.Click += new System.EventHandler(this.text1_Click);
             // 
             // interval
             // 
